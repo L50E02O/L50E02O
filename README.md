@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @L50E02O
 - 👀 I’m interested in becoming a great programer 
-- 🌱 I’m currently learning python, javascrip, html, css, SQL and c++
+- 🌱 I’m currently learning Python, Javascrip, HTML, CSS, SQL, Docker and C++
 - 🤗 Right now i know the basic of git and github
 - 💞️ I’m looking to collaborate on proyects to improve my skills
 - 😄 Pronouns: leohc
