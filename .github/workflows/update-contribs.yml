@@ -1,0 +1,37 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Update Contributions List
+
+# Controls when the workflow will run
+on:
+  schedule:
+    - cron: "0 0 * * 0"  # Ejecuta cada domingo a medianoche
+  workflow_dispatch:      # Permite ejecutarlo manualmente desde GitHub Actions
+  
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🔹 Checkout repository
+        uses: actions/checkout@v3
+
+      - name: 🔹 Update contributions section in README
+        uses: akshayysharma/github-contributions-readme-action@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          max_repos: 10   # Número máximo de repos que mostrará
+          include_private: false  # Solo mostrará contribuciones públicas
+
+      - name: 🔹 Commit and push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Auto-update: contributions list refreshed" || echo "No changes to commit"
+          git push
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
