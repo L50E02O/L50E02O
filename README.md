@@ -1,4 +1,4 @@
-## 🧩 Repositories I've Contributed To
+## Repositories I've Contributed To
 <!--START_CONTRIBUTIONS:readme-info-->
 <!--END_CONTRIBUTIONS:readme-info-->
 
