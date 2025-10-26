@@ -1,6 +1,6 @@
-## Repositories I've Contributed To
+## 🧩 Repositories I've Contributed To
 <!--START_CONTRIBUTIONS:readme-info-->
-<!--END_CONTRIBUTIONS:readme-info-->
+<!--END-CONTRIBUTIONS:readme-info-->
 
 ---
 
@@ -16,10 +16,10 @@
 ---
 
 ## 👋 About Me  
-- 🎓 **Software Engineering Student** passionate about technology and development.  
-- 🧠 Focused on **problem-solving, clean architecture, and AI-powered workflows**.  
-- ⚙️ Constantly exploring **modern frameworks and developer tools**.  
-- 💡 Believe in *“learning by building”* — every project is a new experiment.  
+- 🎓 **Software Engineering Student** passionate about technology and innovation.  
+- 🧠 Focused on **clean architecture, AI-assisted workflows**, and backend systems.  
+- 💡 Believer in *“learning by building”* — every project is an experiment and an opportunity.  
+- 🌱 Currently exploring **Supabase, TypeScript, NestJS, and MCP Context7**.  
 
 ---
 
@@ -36,9 +36,10 @@
 
 ### ⚙️ **Backend**
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/NestJS-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white">
+  <img src="https://img.shields.io/badge/GraphQL-%23E10098.svg?style=for-the-badge&logo=graphql&logoColor=white">
   <img src="https://img.shields.io/badge/Node.js-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white">
-  <img src="https://img.shields.io/badge/SQL-%230A4D8F.svg?style=for-the-badge&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/Supabase-%233FCF8E.svg?style=for-the-badge&logo=supabase&logoColor=white">
   <img src="https://img.shields.io/badge/REST%20API-%23007ACC.svg?style=for-the-badge&logo=api&logoColor=white">
 </p>
@@ -58,15 +59,35 @@
   <img src="https://img.shields.io/badge/MCP%20Context7-%235C2D91.svg?style=for-the-badge&logo=openai&logoColor=white">
   <img src="https://img.shields.io/badge/GitHub%20Copilot-%23008B8B.svg?style=for-the-badge&logo=githubcopilot&logoColor=white">
   <img src="https://img.shields.io/badge/Postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white">
+  <img src="https://img.shields.io/badge/Thunder%20Client-%232C2C2C.svg?style=for-the-badge&logo=thunderbird&logoColor=white">
+  <img src="https://img.shields.io/badge/Google%20Colab-%23F9AB00.svg?style=for-the-badge&logo=googlecolab&logoColor=white">
+  <img src="https://img.shields.io/badge/TypeScript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white">
+</p>
+
+---
+
+## 📈 GitHub Stats & Cards  
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=L50E02O&theme=tokyonight" alt="Profile Details">
+  <br>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=L50E02O&theme=tokyonight" alt="Repos per Language">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=L50E02O&theme=tokyonight" alt="Most Commit Language">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=L50E02O&theme=tokyonight" alt="Stats">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=L50E02O&theme=tokyonight" alt="Productive Time">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=L50E02O&theme=tokyonight&hide_border=true" alt="GitHub Streak">
 </p>
 
 ---
 
 ## 📌 What I'm Working On  
-🔹 Building **backend systems** powered by Supabase and Python.  
-🔹 Enhancing **AI-assisted workflows** using MCP and GitHub Copilot.  
-🔹 Developing modern **frontend interfaces** with React and Vue.  
-🔹 Improving my **clean code and architecture** practices every day.  
+🔹 Building **backend systems** powered by Supabase, Python, and NestJS.  
+🔹 Enhancing **AI-assisted workflows** using MCP, Context7, and GitHub Copilot.  
+🔹 Developing **modern frontends** with React and Vue.  
+🔹 Improving **clean architecture** and developer productivity daily.  
 
 ---
 
@@ -78,12 +99,6 @@
 
 ## ⚡ Motivation  
 > “Great things are built one step at a time. Keep learning, keep coding.”
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=L50E02O&theme=tokyonight&hide_border=true" alt="GitHub Streak">
-</p>
-
----
 
 <p align="center">
   ✨ *Let's connect and build something amazing!* 🚀  
