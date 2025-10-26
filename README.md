@@ -69,12 +69,10 @@
 ## 📈 GitHub Stats & Cards  
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=L50E02O&theme=tokyonight" alt="Profile Details">
   <br>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=L50E02O&theme=tokyonight" alt="Repos per Language">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=L50E02O&theme=tokyonight" alt="Most Commit Language">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=L50E02O&theme=tokyonight" alt="Stats">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=L50E02O&theme=tokyonight" alt="Productive Time">
 </p>
 
 <p align="center">
