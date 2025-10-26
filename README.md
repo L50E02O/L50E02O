@@ -27,8 +27,12 @@
 ### 📈 GitHub Overview  
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=L50E02O&theme=tokyonight" height="150" alt="Stats"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=L50E02O&theme=tokyonight" height="150" alt="Languages"/>
+  <img src="https://raw.githubusercontent.com/L50E02O/L50E02O/main/profile-summary-card-output/tokyonight/3-stats.svg" height="150" alt="Stats"/>
+  <img src="https://raw.githubusercontent.com/L50E02O/L50E02O/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" height="150" alt="Languages"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/L50E02O/L50E02O/main/profile-summary-card-output/tokyonight/0-profile-details.svg" height="150" alt="Profile Details"/>
 </p>
 
 <p align="center">
