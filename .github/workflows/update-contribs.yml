@@ -1,4 +1,4 @@
-name: 🧩 Update GitHub Profile (Summary Cards + Contributions)
+name: 🧩 Update GitHub Profile Summary Cards
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-profile:
+  update-summary-cards:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -16,8 +16,8 @@ jobs:
       - name: 🔹 Checkout repository
         uses: actions/checkout@v4
 
-      # 🧩 2. Generar Summary Cards (tarjetas de perfil)
-      - name: 🧾 Generate GitHub Profile Summary Cards
+      # 🧾 2. Generar Summary Cards (tarjetas de perfil)
+      - name: 🧩 Generate GitHub Profile Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
@@ -26,11 +26,3 @@ jobs:
           BRANCH_NAME: "main"
           UTC_OFFSET: -5  # Ecuador
           AUTO_PUSH: true
-
-      # 🧠 3. Actualizar sección de contribuciones en README
-      - name: 🧱 Update Contributions Section
-        uses: JamesIves/github-contributions-readme-action@v2.3.1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          readme-path: README.md
-          commit-message: "🧩 Auto-update: Summary Cards + Contributions refreshed"
