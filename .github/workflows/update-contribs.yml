@@ -1,28 +1,36 @@
-name: 🧩 Update GitHub Profile Summary Cards
+name: 🧩 Update GitHub Profile (Summary Cards + Contributions)
 
 on:
   schedule:
-    # Ejecutar cada 24 horas
-    - cron: "0 */24 * * *"
+    - cron: "0 */24 * * *"  # Se ejecuta cada 24 horas
   workflow_dispatch:
 
 jobs:
-  build:
+  update-profile:
     runs-on: ubuntu-latest
-    name: Generate GitHub Profile Summary Cards
     permissions:
       contents: write
 
     steps:
+      # 🌀 1. Checkout del repositorio
       - name: 🔹 Checkout repository
         uses: actions/checkout@v4
 
-      - name: 🔹 Generate profile summary cards
+      # 🧩 2. Generar Summary Cards (tarjetas de perfil)
+      - name: 🧾 Generate GitHub Profile Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: "main"
-          UTC_OFFSET: -5  # Cambia según tu zona horaria (Ecuador = -5)
+          UTC_OFFSET: -5  # Ecuador
           AUTO_PUSH: true
+
+      # 🧠 3. Actualizar sección de contribuciones en README
+      - name: 🧱 Update Contributions Section
+        uses: JamesIves/github-contributions-readme-action@v2.3.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          readme-path: README.md
+          commit-message: "🧩 Auto-update: Summary Cards + Contributions refreshed"
