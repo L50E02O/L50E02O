@@ -1,37 +1,28 @@
-# This is a basic workflow to help you get started with Actions
+name: 🧩 Update GitHub Profile Summary Cards
 
-name: Update Contributions List
-
-# Controls when the workflow will run
 on:
   schedule:
-    - cron: "0 0 * * 0"  # Ejecuta cada domingo a medianoche
-  workflow_dispatch:      # Permite ejecutarlo manualmente desde GitHub Actions
-  
+    # Ejecutar cada 24 horas
+    - cron: "0 */24 * * *"
+  workflow_dispatch:
+
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
+    name: Generate GitHub Profile Summary Cards
+    permissions:
+      contents: write
 
     steps:
       - name: 🔹 Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: 🔹 Update contributions section in README
-        uses: akshayysharma/github-contributions-readme-action@main
+      - name: 🔹 Generate profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          max_repos: 10   # Número máximo de repos que mostrará
-          include_private: false  # Solo mostrará contribuciones públicas
-
-      - name: 🔹 Commit and push changes
-        run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions@github.com"
-          git add README.md
-          git commit -m "Auto-update: contributions list refreshed" || echo "No changes to commit"
-          git push
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
+          UTC_OFFSET: -5  # Cambia según tu zona horaria (Ecuador = -5)
+          AUTO_PUSH: true
