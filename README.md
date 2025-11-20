@@ -1,10 +1,10 @@
-# 🌙 About Me:
-A passionate clean architecture, AI-assisted workflows, and fullstack systems</h3><br><br><br>- 🔭 I’m currently working on **a startup full stack proyect**<br><br>- 🌱 I’m currently learning **Full stack web developments, Workflows and MCP**<br><br>- 👯 I’m looking to collaborate on **to improve my skills**<br><br>- 🌍 Languages: **Spanish (Native) · English (Fluent)**
+# HI I'm Leo 👻 here's some info about me:
+I'm passionate about clean architecture, AI-assisted workflows, and fullstack systems</h3><br><br>- 🔭 I’m currently working on **a startup full stack proyect**<br><br>- 🌱 I’m currently learning **Full stack web developments, Workflows and MCP**<br><br>- 👯 I’m looking to collaborate on **to improve my skills**<br><br>- 🌍 Languages: **Spanish (Native) · English (Fluent)**
 
 <br>
 
 
- <a href="https://github.com/L50E02O"><img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=radical" width="300" /></a>  <img src="https://github.com/user-attachments/assets/2e668d81-a971-4833-bf74-45333633eb0d" width="370" /> 
+ <a href="https://github.com/L50E02O"><img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=radical" width="290" /></a>  <img src="https://github.com/user-attachments/assets/2e668d81-a971-4833-bf74-45333633eb0d" width="370" /> 
 
 <br>
 
